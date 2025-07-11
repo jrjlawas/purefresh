@@ -69,7 +69,7 @@ const Header = () => {
                     </ul>
                   </div>
                   <div className="vl-btn3">
-                    <Link to="/pages/contact" className="primary-btn-3">
+                    <Link to="/" className="primary-btn-3">
                       Order Now
                     </Link>
                   </div>
@@ -114,15 +114,15 @@ const Header = () => {
         <div className="mobile-nav mobile-nav1">
           <ul className="mobile-nav-list nav-list1">
             <li>
-              <a href="#about">About</a>
+              <a href="\">Home</a>
             </li>
             <li>
-              <a href="#service">Service</a>
+              <a href="\">Services</a>
             </li>
             <li>
-              <a href="#gallery">Gallery</a>
+              <a href="\">Contact Us</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#testimonial">Testimonial</a>
             </li>
             <li>
@@ -133,12 +133,12 @@ const Header = () => {
             </li>
             <li>
               <a href="#blog">Blog</a>
-            </li>
+            </li> */}
           </ul>
           <div className="allmobilesection">
             <div className="vl-btn3 mb-30">
-              <Link to="#" className="primary-btn-3">
-                DONATE NOW
+              <Link to="\" className="primary-btn-3">
+                Order Now
               </Link>
             </div>
             <div className="vl-mobile-contact1">
@@ -152,7 +152,7 @@ const Header = () => {
                     />
                   </div>
                   <div className="contact-info-text">
-                    <a href="tel:+3(924)4596512">+3(924)4596512</a>
+                    <a href="tel:+3(924)4596512">0954 229 4356</a>
                   </div>
                 </div>
                 <div className="contact-info-single">
@@ -174,8 +174,8 @@ const Header = () => {
                   </div>
                   <div className="contact-info-text">
                     <a href="mailto:info@example.com">
-                      55 East Birchwood Ave.Brooklyn, <br /> New York
-                      11201,United States
+                      Lot 15, Block 10, Jolly Neighbors Subd. <br />
+                      Santa Cruz, Naga City 4400
                     </a>
                   </div>
                 </div>
@@ -188,7 +188,7 @@ const Header = () => {
                           <FaFacebookF className="fa-brands fa-facebook-f" />
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="#">
                           <FaInstagram className="fa-brands fa-instagram" />
                         </a>
@@ -202,7 +202,7 @@ const Header = () => {
                         <a href="#">
                           <FaYoutube className="fa-brands fa-youtube" />
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>

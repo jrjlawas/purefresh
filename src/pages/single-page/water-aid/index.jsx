@@ -18,13 +18,13 @@ const WaterAidPage = () => {
       <PageMeta title="Helpy 3" icon={favLogo3} />
       <Header />
       <Hero />
-      <About />
+      {/* <About />
       <Service />
-      {/* <Gallery />
-            <Testimonial />
-            <Faq />
-            <Contact />
-            <Blog /> */}
+      <Gallery />
+      <Testimonial />
+      <Faq />
+      <Contact />
+      <Blog /> */}
       <Contact />
       <CtaArea />
       <Footer />
