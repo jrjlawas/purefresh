@@ -45,9 +45,6 @@ const Footer = () => {
               <div className="vl-footer-menu">
                 <ul>
                   <li>
-                    <Link to="/">About Us</Link>
-                  </li>
-                  <li>
                     <Link to="/pf-contact">Order Now</Link>
                   </li>
                 </ul>
@@ -56,17 +53,17 @@ const Footer = () => {
           </Col>
           <Col lg={3} md={6}>
             <div className="vl-footer-widget-2 pl-30 mb-30">
-              <h3 className="title">Our services</h3>
+              <h3 className="title">Our Products</h3>
               <div className="vl-footer-menu">
                 <ul>
                   <li>
-                    <a href="#">Water Refilling</a>
+                    <a href="#">Purified Drinking Water</a>
                   </li>
                   <li>
                     <a href="#">Ice Cube</a>
                   </li>
                   <li>
-                    <a href="#">Laundry Shop</a>
+                    <a href="#">Laundry Services</a>
                   </li>
                 </ul>
               </div>
