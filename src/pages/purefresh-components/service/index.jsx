@@ -2,6 +2,7 @@ import galleryImg from "@/assets/img/icons/vl-gallerylarge-3.1.svg";
 import { FaArrowRight } from "react-icons/fa6";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router";
+
 import service3Icon from "@/assets/img/icons/vl-service-icon-3.3.svg";
 import service1 from "@/assets/img/service/vl-service-3.1.png";
 import service2 from "@/assets/img/service/vl-service-3.2.png";

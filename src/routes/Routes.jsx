@@ -42,6 +42,10 @@ const Error404 = lazy(() => import("@/pages/other-pages/error-404"));
 const Faq = lazy(() => import("@/pages/other-pages/faq"));
 const Service = lazy(() => import("@/pages/other-pages/service"));
 const Team = lazy(() => import("@/pages/other-pages/team"));
+const PureFreshContact = lazy(() =>
+  import("@/pages/purefresh-pages/contactUs")
+);
+
 const multiPageRoutes = [
   {
     path: "/",
@@ -75,6 +79,13 @@ const singlePageRoutes = [
     name: "multi-page-home",
     element: <SinglePageHome />,
   },
+  // PureFresh Pages Start Region
+  {
+    path: "/pf-contact",
+    name: "single-page-purefresh-contact",
+    element: <PureFreshContact />,
+  },
+  // PureFresh Pages End Region
   {
     path: "/animal-rescue",
     name: "single-page-animal-rescue",

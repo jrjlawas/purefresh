@@ -1,6 +1,5 @@
 import FooterLogo1 from "@/assets/img/purefresh/logo1.png";
 import logo3 from "@/assets/img/purefresh/logo1.png";
-
 import useScrollEvent from "@/hooks/useScrollEvent";
 import useToggle from "@/hooks/useToggle";
 import { Link } from "react-router";
@@ -75,7 +74,7 @@ const Header = () => {
                     </ul>
                   </div>
                   <div className="vl-btn3">
-                    <Link to="/" className="primary-btn-3">
+                    <Link to="/pf-contact" className="primary-btn-3">
                       Order Now
                     </Link>
                   </div>
@@ -132,7 +131,7 @@ const Header = () => {
               <a href="\">About Us</a>
             </li>
             <li>
-              <a href="\">Contact Us</a>
+              <a href="/pf-contact">Contact Us</a>
             </li>
             {/* <li>
               <a href="#testimonial">Testimonial</a>
@@ -149,7 +148,7 @@ const Header = () => {
           </ul>
           <div className="allmobilesection">
             <div className="vl-btn3 mb-30">
-              <Link to="\" className="primary-btn-3">
+              <Link to="\pf-contact" className="primary-btn-3">
                 Order Now
               </Link>
             </div>

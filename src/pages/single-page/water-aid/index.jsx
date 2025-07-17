@@ -1,19 +1,22 @@
 import PageMeta from "@/components/PageMeta.jsx";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Service from "./components/Service";
-import Gallery from "./components/Gallery";
-import Testimonial from "./components/Testimonial";
-import Faq from "./components/Faq";
-import Contact from "./components/Contact";
-import Blog from "./components/Blog";
-import CtaArea from "./components/CtaArea";
-import Footer from "./components/Footer";
+import Header from "../../purefresh-components/header";
+import Hero from "../../purefresh-components/hero";
+
+import Service from "../../purefresh-components/service";
+import Contact from "../../purefresh-components/contact";
+import CtaArea from "../../purefresh-components/cta";
+import OrderNow from "../../purefresh-components/ordernow";
+import Footer from "../../purefresh-components/footer";
+
 import BackToTop from "@/components/BackToTop.jsx";
 import favLogo3 from "@/assets/img/logo/fav-logo3.png";
 
-import Mission from "../.././/single-page/animal-rescue/components/About";
+// import About from "./components/About";
+// import Gallery from "./components/Gallery";
+// import Testimonial from "./components/Testimonial";
+// import Faq from "./components/Faq";
+// import Blog from "./components/Blog";
+// import Mission from "../.././/single-page/animal-rescue/components/About";
 
 const WaterAidPage = () => {
   return (
@@ -29,7 +32,7 @@ const WaterAidPage = () => {
       <Faq />
       <Contact />
       <Blog /> */}
-      <Contact />
+      <OrderNow />
       <CtaArea />
       <Footer />
       <BackToTop />
