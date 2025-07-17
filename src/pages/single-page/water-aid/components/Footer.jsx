@@ -16,9 +16,10 @@ const Footer = () => {
               </div>
               <div className="vl-footer-content">
                 <p>
-                  Now’s the time to act—every order counts, and your trust
-                  brings us one step closer to a cleaner, fresher lifestyle.
-                  Choose PureFresh today and feel the difference.
+                  Now’s the time to choose better—every order supports cleaner
+                  living and reliable service. With PureFresh, you get water,
+                  ice, and laundry you can trust. Experience the difference
+                  today.
                 </p>
               </div>
               <div className="vl-footer-social-1">

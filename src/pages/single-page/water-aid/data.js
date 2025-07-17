@@ -10,20 +10,20 @@ export const serviceData = [{
     duration: 1200,
     delay: 300
   },
-  iconImg: service1Icon,
+  iconImg: service3Icon,
   thumbnailImg: service1,
-  title: "Education Support",
-  description: "Explore charity website discover impactful projects, opportunities."
+  title: "Purified Drinking Water",
+  description: "Safe, clean, and refreshing water delivered right to you daily."
 }, {
   animation: {
     effect: "fade-up",
     duration: 1100,
     delay: 300
   },
-  iconImg: service2Icon,
+  iconImg: service3Icon,
   thumbnailImg: service2,
-  title: "Healthy Foods",
-  description: "Share stories & experiences from current volunteers inspire others."
+  title: "Ice Cubes",
+  description: "Crystal-clear ice, perfect for drinks, parties, and food service."
 }, {
   animation: {
     effect: "fade-left",
@@ -32,8 +32,8 @@ export const serviceData = [{
   },
   iconImg: service3Icon,
   thumbnailImg: service3,
-  title: "Medical Help",
-  description: "Join us in making difference! Our charity website connect volunteer."
+  title: "Laundry Services",
+  description: "Reliable, affordable laundry care for fresh, clean clothes every time."
 }];
 export const faqData = [{
   question: "Why is access to clean water so important?",
