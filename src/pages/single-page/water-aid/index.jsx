@@ -12,6 +12,9 @@ import CtaArea from "./components/CtaArea";
 import Footer from "./components/Footer";
 import BackToTop from "@/components/BackToTop.jsx";
 import favLogo3 from "@/assets/img/logo/fav-logo3.png";
+
+import Mission from "../.././/single-page/animal-rescue/components/About";
+
 const WaterAidPage = () => {
   return (
     <>

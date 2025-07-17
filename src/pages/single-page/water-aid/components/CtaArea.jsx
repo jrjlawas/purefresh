@@ -14,7 +14,7 @@ const CtaArea = () => {
             <Col lg={6}>
               <div className="vl-cta-content3 mb-30">
                 <h3 className="title text-anime-style-3">
-                  Help Us Make Every Drop Count
+                  PureFresh – Clean Water, Cool Ice, and Trusted Laundry Care
                 </h3>
                 <p
                   className="para"
@@ -22,9 +22,10 @@ const CtaArea = () => {
                   data-aos-duration={1000}
                   data-aos-delay={300}
                 >
-                  Fresh water powers daily life. With your trust, PureFresh
-                  delivers safe, reliable hydration and service to every home we
-                  reach.
+                  We’re more than just water. PureFresh delivers purified
+                  drinking water, crystal-clear ice, and dependable laundry
+                  services — all with the commitment to quality your family or
+                  business deserves.
                 </p>
                 <div className="cta-btn">
                   <Link to="/" className="cta-btn1">
