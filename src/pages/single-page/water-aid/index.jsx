@@ -21,7 +21,7 @@ import favLogo3 from "@/assets/img/logo/fav-logo3.png";
 const WaterAidPage = () => {
   return (
     <>
-      <PageMeta title="Helpy 3" icon={favLogo3} />
+      <PageMeta title="PureFresh" icon={favLogo3} />
       <Header />
       <Hero />
       <Service />

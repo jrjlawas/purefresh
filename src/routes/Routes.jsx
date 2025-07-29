@@ -45,6 +45,7 @@ const Team = lazy(() => import("@/pages/other-pages/team"));
 const PureFreshContact = lazy(() =>
   import("@/pages/purefresh-pages/contactUs")
 );
+const IceServicePage = lazy(() => import("@/pages/purefresh-pages/iceService"));
 
 const multiPageRoutes = [
   {
@@ -84,6 +85,11 @@ const singlePageRoutes = [
     path: "/pf-contact",
     name: "single-page-purefresh-contact",
     element: <PureFreshContact />,
+  },
+  {
+    path: "/pf-ice",
+    name: "single-page-purefresh-ice",
+    element: <IceServicePage />,
   },
   // PureFresh Pages End Region
   {

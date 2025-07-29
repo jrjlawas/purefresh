@@ -2,13 +2,9 @@ import galleryImg from "@/assets/img/icons/vl-gallerylarge-3.1.svg";
 import { FaArrowRight } from "react-icons/fa6";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router";
-
-import service3Icon from "@/assets/img/icons/vl-service-icon-3.3.svg";
-import service1 from "@/assets/img/purefresh/product/Product1.jpg";
 import service2 from "@/assets/img/purefresh/product/Product2.jpg";
-import service3 from "@/assets/img/purefresh/product/Product3.jpg";
 
-const Service = () => {
+const IcePackage = () => {
   const serviceData = [
     {
       animation: {
@@ -17,11 +13,9 @@ const Service = () => {
         delay: 300,
       },
       linkTo: "/pf-ice",
-      iconImg: service3Icon,
       thumbnailImg: service2,
-      title: "Ice Cubes",
-      description:
-        "Crystal-clear ice, perfect for drinks, parties, and food service.",
+      title: "1 Kilogram (PHP 15.00)",
+      description: "Ideal for personal refreshment or small gatherings.",
     },
     {
       animation: {
@@ -30,11 +24,9 @@ const Service = () => {
         delay: 300,
       },
       linkTo: "/pf-ice",
-      iconImg: service3Icon,
-      thumbnailImg: service1,
-      title: "Pure Drinking Water",
-      description:
-        "Safe, clean, and refreshing water delivered right to you daily.",
+      thumbnailImg: service2,
+      title: "2 Kilograms (PHP 25.00)",
+      description: "Great for family use or medium-sized events.",
     },
     {
       animation: {
@@ -43,11 +35,9 @@ const Service = () => {
         delay: 300,
       },
       linkTo: "/pf-ice",
-      iconImg: service3Icon,
-      thumbnailImg: service3,
-      title: "Laundry Service",
-      description:
-        "Reliable, affordable laundry care for fresh, clean clothes every time.",
+      thumbnailImg: service2,
+      title: "5 Kilograms (PHP 60.00)",
+      description: "Best for larger needs, restaurants, or catering.",
     },
   ];
   return (
@@ -59,17 +49,15 @@ const Service = () => {
         <Row>
           <Col lg={"6"} className="mx-auto">
             <div className="vl-section-title3 mb-60 text-center">
-              <h4
+              {/* <h4
                 className="subtitle"
                 data-aos="fade-up"
                 data-aos-duration={800}
                 data-aos-delay={300}
               >
-                Our Products
-              </h4>
-              <h2 className="title text-anime-style-3">
-                PureFresh Delivers Clean, Fresh Essentials Daily
-              </h2>
+                Our Ice Cube Pricing
+              </h4> */}
+              <h2 className="title text-anime-style-3">Our Ice Cube Pricing</h2>
             </div>
           </Col>
         </Row>
@@ -84,11 +72,6 @@ const Service = () => {
               key={idx}
             >
               <div className="vl-service-box-parent mb-30">
-                <div className="vl-service-icon">
-                  <span>
-                    <img src={item.iconImg} alt="thumbnailImg" />
-                  </span>
-                </div>
                 <div className="vl-service-box-3">
                   <div className="service-thumb">
                     <img
@@ -102,12 +85,12 @@ const Service = () => {
                       {item.title}
                     </Link>
                     <p className="para">{item.description}</p>
-                    <Link to={item.linkTo} className="rmore">
+                    {/* <Link to="#" className="rmore">
                       View Product{" "}
                       <span>
                         <FaArrowRight />
                       </span>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>
@@ -118,4 +101,4 @@ const Service = () => {
     </section>
   );
 };
-export default Service;
+export default IcePackage;

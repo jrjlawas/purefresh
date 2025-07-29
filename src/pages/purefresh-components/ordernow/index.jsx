@@ -23,7 +23,7 @@ const Contact = () => {
           <Col lg={6} className="mb-30">
             <div className="vl-maps">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1938.7414567513479!2d123.17783107960443!3d13.628362745761466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a1f3005d438581%3A0x51517a25f59aa999!2s2nd%20st%20jollyneighborhood%20santa%20cruz!5e0!3m2!1sen!2sph!4v1752757953688!5m2!1sen!2sph"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d617.6986165273747!2d123.1770377958098!3d13.625892420210032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a18d8dba68195d%3A0x5161f63396a625f0!2sJolly%20Neighborhood!5e1!3m2!1sen!2sph!4v1753534196686!5m2!1sen!2sph"
                 allowFullScreen
                 className="vl-contact-maps"
               />

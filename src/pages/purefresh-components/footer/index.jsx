@@ -2,6 +2,9 @@ import footerLogo from "@/assets/img/purefresh/logo1.png";
 import { FaFacebookF, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa6";
 import { Link } from "react-router";
 import { Col, Container, Row } from "react-bootstrap";
+import footerIc1 from "@/assets/img/icons/vl-footer-ic-1.1.svg";
+import footerIc2 from "@/assets/img/icons/vl-footer-ic-1.2.svg";
+import footerIc3 from "@/assets/img/icons/vl-footer-2.1.svg";
 const Footer = () => {
   return (
     <footer className="vl-footer-bg-1 vl-footer-bg-3">
@@ -57,15 +60,55 @@ const Footer = () => {
               <div className="vl-footer-menu">
                 <ul>
                   <li>
-                    <a href="#">Purified Drinking Water</a>
+                    <a href="/pf-ice">Ice Cube</a>
                   </li>
                   <li>
-                    <a href="#">Ice Cube</a>
+                    <a href="#">Pure Drinking Water</a>
                   </li>
                   <li>
-                    <a href="#">Laundry Services</a>
+                    <a href="#">Laundry Service</a>
                   </li>
                 </ul>
+              </div>
+            </div>
+          </Col>
+          <Col lg={3} md={6}>
+            <div className="vl-footer-widget-3 mb-30">
+              <h3 className="title">Contact Us</h3>
+              <div className="vl-footer-icon-list">
+                <div className="vl-footer-icon">
+                  <span>
+                    <img src={footerIc1} alt="footerIc1" />
+                  </span>
+                </div>
+                <div className="vl-footer-text">
+                  <a href="mailto:support@charity.com">romeocjacob@yahoo.com</a>
+                </div>
+              </div>
+              <div className="vl-footer-icon-list">
+                <div className="vl-footer-icon">
+                  <span>
+                    <img src={footerIc2} alt="footerIc2" />
+                  </span>
+                </div>
+                <div className="vl-footer-text">
+                  <a href="#">
+                    {/* 8708 Technology Forest <br /> Pl Suite 125 -G, The
+                    Woodlands, TX 773 */}
+                    Lot 15, Block 10 Jolly Neighbors Subd. Bgy. Santa Cruz, Naga
+                    City, Philippines
+                  </a>
+                </div>
+              </div>
+              <div className="vl-footer-icon-list">
+                <div className="vl-footer-icon">
+                  <span>
+                    <img src={footerIc3} alt="footerIc3" />
+                  </span>
+                </div>
+                <div className="vl-footer-text">
+                  <a href="tel:1234567890">123-456-7890</a>
+                </div>
               </div>
             </div>
           </Col>
