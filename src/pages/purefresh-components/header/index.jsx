@@ -45,14 +45,14 @@ const Header = () => {
                         <a href="/pf-ice">Ice Cubes</a>
                       </li>
                       <li>
-                        <a href="/pf-ice">Pure Drinking Water</a>
+                        <a href="/pf-water">Pure Drinking Water</a>
                       </li>
                       <li>
-                        <a href="/pf-ice">Laundry Service</a>
+                        <a href="/pf-laundry">Laundry Service</a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="\">About Us</a>
-                      </li>
+                      </li> */}
                       <li>
                         <a href="\pf-contact">Contact Us</a>
                       </li>
@@ -128,14 +128,14 @@ const Header = () => {
               <a href="/pf-ice">Ice Cubes</a>
             </li>
             <li>
-              <a href="/pf-ice">Pure Drinking Water</a>
+              <a href="/pf-water">Pure Drinking Water</a>
             </li>
             <li>
-              <a href="/pf-ice">Laundry Service</a>
+              <a href="/pf-laundry">Laundry Service</a>
             </li>
-            <li>
+            {/* <li>
               <a href="\">About Us</a>
-            </li>
+            </li> */}
             <li>
               <a href="/pf-contact">Contact Us</a>
             </li>

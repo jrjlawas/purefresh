@@ -1,19 +1,18 @@
-import aboutIcons1 from "@/assets/img/icons/vl-about-1.1.svg";
 import aboutIcons2 from "@/assets/img/icons/vl-about-1.2.svg";
-
 // import about1 from "@/assets/img/about/vl-about-1.1.png";
 // import about2 from "@/assets/img/about/vl-about-1.2.png";
-import about1 from "@/assets/img/purefresh/ice/ice1.jpg";
-import about2 from "@/assets/img/purefresh/ice/ice2.jpg";
-import { FaArrowRight } from "react-icons/fa6";
+import about1 from "@/assets/img/purefresh/water/Drink1.jpg";
+import about2 from "@/assets/img/purefresh/water/Drink2.jpg";
+
+// import blogThmb from "@/assets/img/purefresh/water/Drink3.jpg";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router";
-const IceAbout = () => {
+const WaterPackaging = () => {
   return (
     <section id="about" className="vl-about-section sp2">
       <Container>
         <Row>
-          <Col lg={6}>
+          <Col lg={8}>
             <div className="vl-about-content">
               <div className="vl-section-title-1">
                 <h5
@@ -22,10 +21,10 @@ const IceAbout = () => {
                   data-aos-duration={800}
                   data-aos-delay={300}
                 >
-                  PureFresh Ice Cubes
+                  Product Details
                 </h5>
                 <h2 className="title text-anime-style-3">
-                  Crystal Clear. Clean. Always Ready to Chill.
+                  Water Quality Assurance: Safe, Fresh, and Crystal-Clear
                 </h2>
                 <p
                   className="pb-32"
@@ -33,26 +32,27 @@ const IceAbout = () => {
                   data-aos-duration={800}
                   data-aos-delay={300}
                 >
-                  Need ice fast? Trust PureFresh for your clean, clear, and
-                  long-lasting ice cubes – perfect for your home, events,
-                  restaurants, or sari-sari store needs!
+                  At PureFresh, your health is our highest priority. That’s why
+                  our water goes through a rigorous, multi-stage purification
+                  system before being delivered to your home or office.
                 </p>
               </div>
               <div className="vl-about-grid">
                 <div className="vl-about-icon-box mb-30">
                   <div className="vl-about-icon">
                     <span>
-                      <img src={aboutIcons1} alt="about1" />
+                      <img src={aboutIcons2} alt="about1" />
                     </span>
                   </div>
                   <div className="vl-icon-content">
                     <h3 className="title">
-                      <Link to="#">Clean Water, Clear Ice</Link>
+                      <Link to="#">Container Size: 5 Gallons</Link>
                     </h3>
                     <p>
-                      Made from purified water, our ice is safe, tasteless, and
-                      odor-free. Perfect for drinking, food use, and keeping
-                      things cool the clean way.
+                      Each PureFresh container holds approximately 5 gallons
+                      (roughly 18.9 liters) of purified drinking water—an ideal
+                      size for daily consumption at homes, offices, small
+                      eateries, and retail stores.
                     </p>
                   </div>
                 </div>
@@ -64,12 +64,12 @@ const IceAbout = () => {
                   </div>
                   <div className="vl-icon-content">
                     <h3 className="title">
-                      <Link to="#">Freshly Made, Delivered Fast</Link>
+                      <Link to="#">Affordable Pricing – Just ₱30.00 Each</Link>
                     </h3>
                     <p>
-                      We produce fresh ice daily and deliver quickly for bulk
-                      orders. Ideal for home use, events, or businesses that
-                      need reliable ice supply.
+                      We believe access to clean water shouldn’t be expensive.
+                      That’s why we offer each 5-gallon container at just
+                      ₱30.00, one of the most competitive prices in Naga City.
                     </p>
                   </div>
                 </div>
@@ -81,7 +81,7 @@ const IceAbout = () => {
               <img className="w-100" src={about1} alt="about1" />
             </div>
           </Col>
-          <Col lg={2} md={6} className="mb-30">
+          {/* <Col lg={2} md={6} className="mb-30">
             <div
               className="vl-about-sm-content"
               data-aos="zoom-in-up"
@@ -89,7 +89,8 @@ const IceAbout = () => {
               data-aos-delay={300}
             >
               <p>
-                Your trusted Ice Cube partner for clean, refreshing moments.
+                We make hydration easy with reliable delivery within a
+                5-kilometer radius from our location
               </p>
               <div className="btn-area">
                 <Link to="/pf-contact" className="primary-btn-3">
@@ -100,10 +101,10 @@ const IceAbout = () => {
                 <img className="w-100" src={about2} alt="about2" />
               </div>
             </div>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </section>
   );
 };
-export default IceAbout;
+export default WaterPackaging;

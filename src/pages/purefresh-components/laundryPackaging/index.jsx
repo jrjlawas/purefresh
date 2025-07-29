@@ -1,19 +1,15 @@
-import aboutIcons1 from "@/assets/img/icons/vl-about-1.1.svg";
 import aboutIcons2 from "@/assets/img/icons/vl-about-1.2.svg";
+import about1 from "@/assets/img/purefresh/laundry/laundry4.jpg";
 
-// import about1 from "@/assets/img/about/vl-about-1.1.png";
-// import about2 from "@/assets/img/about/vl-about-1.2.png";
-import about1 from "@/assets/img/purefresh/ice/ice1.jpg";
-import about2 from "@/assets/img/purefresh/ice/ice2.jpg";
-import { FaArrowRight } from "react-icons/fa6";
+// import blogThmb from "@/assets/img/purefresh/water/Drink3.jpg";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router";
-const IceAbout = () => {
+const LaundryPackaging = () => {
   return (
     <section id="about" className="vl-about-section sp2">
       <Container>
         <Row>
-          <Col lg={6}>
+          <Col lg={8}>
             <div className="vl-about-content">
               <div className="vl-section-title-1">
                 <h5
@@ -22,10 +18,10 @@ const IceAbout = () => {
                   data-aos-duration={800}
                   data-aos-delay={300}
                 >
-                  PureFresh Ice Cubes
+                  One Load. One Price. Zero Hassle.
                 </h5>
                 <h2 className="title text-anime-style-3">
-                  Crystal Clear. Clean. Always Ready to Chill.
+                  All-Inclusive Laundry for Only ₱80.00
                 </h2>
                 <p
                   className="pb-32"
@@ -33,26 +29,27 @@ const IceAbout = () => {
                   data-aos-duration={800}
                   data-aos-delay={300}
                 >
-                  Need ice fast? Trust PureFresh for your clean, clear, and
-                  long-lasting ice cubes – perfect for your home, events,
-                  restaurants, or sari-sari store needs!
+                  No more guessing how much your laundry will cost. At PureFresh
+                  Laundry, one load—washed and dried—is just ₱80.00, with no
+                  surprise charges. It's a price that fits your budget and a
+                  service that fits your schedule.
                 </p>
               </div>
               <div className="vl-about-grid">
                 <div className="vl-about-icon-box mb-30">
                   <div className="vl-about-icon">
                     <span>
-                      <img src={aboutIcons1} alt="about1" />
+                      <img src={aboutIcons2} alt="about1" />
                     </span>
                   </div>
                   <div className="vl-icon-content">
                     <h3 className="title">
-                      <Link to="#">Clean Water, Clear Ice</Link>
+                      <Link to="#">No Hidden Charges</Link>
                     </h3>
                     <p>
-                      Made from purified water, our ice is safe, tasteless, and
-                      odor-free. Perfect for drinking, food use, and keeping
-                      things cool the clean way.
+                      What you see is what you pay. No extra fees for drying,
+                      detergent, or basic care — just one flat rate that keeps
+                      your budget in check.
                     </p>
                   </div>
                 </div>
@@ -64,12 +61,12 @@ const IceAbout = () => {
                   </div>
                   <div className="vl-icon-content">
                     <h3 className="title">
-                      <Link to="#">Freshly Made, Delivered Fast</Link>
+                      <Link to="#">Perfect for Busy Schedules</Link>
                     </h3>
                     <p>
-                      We produce fresh ice daily and deliver quickly for bulk
-                      orders. Ideal for home use, events, or businesses that
-                      need reliable ice supply.
+                      Don’t waste time waiting or doing laundry at home. Drop
+                      off your load and come back to fresh, clean clothes —
+                      ready when you are.
                     </p>
                   </div>
                 </div>
@@ -81,29 +78,9 @@ const IceAbout = () => {
               <img className="w-100" src={about1} alt="about1" />
             </div>
           </Col>
-          <Col lg={2} md={6} className="mb-30">
-            <div
-              className="vl-about-sm-content"
-              data-aos="zoom-in-up"
-              data-aos-duration={1000}
-              data-aos-delay={300}
-            >
-              <p>
-                Your trusted Ice Cube partner for clean, refreshing moments.
-              </p>
-              <div className="btn-area">
-                <Link to="/pf-contact" className="primary-btn-3">
-                  Order Now{" "}
-                </Link>
-              </div>
-              <div className="vl-about-sm-thumb d-none d-md-block">
-                <img className="w-100" src={about2} alt="about2" />
-              </div>
-            </div>
-          </Col>
         </Row>
       </Container>
     </section>
   );
 };
-export default IceAbout;
+export default LaundryPackaging;

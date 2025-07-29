@@ -46,7 +46,12 @@ const PureFreshContact = lazy(() =>
   import("@/pages/purefresh-pages/contactUs")
 );
 const IceServicePage = lazy(() => import("@/pages/purefresh-pages/iceService"));
-
+const WaterServicePage = lazy(() =>
+  import("@/pages/purefresh-pages/waterService")
+);
+const LaundryServicePage = lazy(() =>
+  import("@/pages/purefresh-pages/laundryService")
+);
 const multiPageRoutes = [
   {
     path: "/",
@@ -90,6 +95,16 @@ const singlePageRoutes = [
     path: "/pf-ice",
     name: "single-page-purefresh-ice",
     element: <IceServicePage />,
+  },
+  {
+    path: "/pf-water",
+    name: "single-page-purefresh-water",
+    element: <WaterServicePage />,
+  },
+  {
+    path: "/pf-laundry",
+    name: "single-page-purefresh-laundry",
+    element: <LaundryServicePage />,
   },
   // PureFresh Pages End Region
   {

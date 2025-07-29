@@ -63,10 +63,10 @@ const Footer = () => {
                     <a href="/pf-ice">Ice Cube</a>
                   </li>
                   <li>
-                    <a href="#">Pure Drinking Water</a>
+                    <a href="/pf-water">Pure Drinking Water</a>
                   </li>
                   <li>
-                    <a href="#">Laundry Service</a>
+                    <a href="/pf-laundry">Laundry Service</a>
                   </li>
                 </ul>
               </div>
