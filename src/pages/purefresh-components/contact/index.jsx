@@ -26,7 +26,7 @@ const Contact = () => {
       </div>
       <Container>
         <Row>
-          <Col lg={6} className="mx-auto">
+          <Col lg={8} className="mx-auto">
             <div className="vl-section-title3 mb-60 text-center">
               <h4
                 className="subtitle"
@@ -101,10 +101,10 @@ const Contact = () => {
                 <div className="vl-text">
                   <h4 className="title">Email Address</h4>
                   <a href="mailto:info@charity.com" className="para">
-                    info@purefresh.com
+                    romeocjacob@yahoo.com
                   </a>{" "}
                   {/* <br />
-                  <a href="mailto:Infocharity@gmail.com" className="para">
+                  <a href="mailto:Infocharity@gmail.com" className="para"> 
                     Infocharity@gmail.com
                   </a> */}
                 </div>
@@ -139,7 +139,7 @@ const Contact = () => {
                     <Col lg={6}>
                       <input type="tel" placeholder="Phone Number" />
                     </Col>
-                    <Col lg={12} className="mb-4">
+                    <Col lg={6} className="mb-4">
                       <Select
                         options={options}
                         className="react-select-container"
@@ -147,11 +147,14 @@ const Contact = () => {
                         placeholder="Select Your Order"
                       />
                     </Col>
+                    <Col lg={6}>
+                      <input type="number" placeholder="Qty*" />
+                    </Col>
                     <Col lg={12}>
                       <textarea
                         name="message"
-                        id="mesage"
-                        placeholder="Your Message"
+                        id="message"
+                        placeholder="Delivery Address*"
                         defaultValue={""}
                       />
                     </Col>

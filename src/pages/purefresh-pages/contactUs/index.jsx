@@ -1,6 +1,7 @@
 import PageMeta from "@/components/PageMeta.jsx";
 import Header from "../../purefresh-components/header";
-import Contact from "../../purefresh-components/ordernow";
+// import Contact from "../../purefresh-components/ordernow";
+import Contact from "../../purefresh-components/contact";
 import CtaArea from "../../purefresh-components/cta";
 import Footer from "../../purefresh-components/footer";
 import BackToTop from "@/components/BackToTop.jsx";

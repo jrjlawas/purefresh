@@ -52,10 +52,10 @@ const Contact = () => {
                       <input type="text" placeholder="Last Name*" />
                     </Col>
                     <Col lg={12}>
-                      <input type="email" placeholder="Email Address*" />
+                      <input type="text" placeholder="Contact Number*" />
                     </Col>
 
-                    <Col lg={12} className="mb-3">
+                    <Col lg={6} className="mb-3">
                       <Select
                         options={options}
                         className="react-select-container"
@@ -63,11 +63,14 @@ const Contact = () => {
                         placeholder="-Select Product-"
                       />
                     </Col>
+                    <Col lg={6}>
+                      <input type="number" placeholder="Qty*" />
+                    </Col>
                     <Col lg={12}>
                       <textarea
                         name="message"
                         id="message"
-                        placeholder="Order Details*"
+                        placeholder="Delivery Address*"
                         defaultValue={""}
                       />
                     </Col>

@@ -107,7 +107,7 @@ const Footer = () => {
                   </span>
                 </div>
                 <div className="vl-footer-text">
-                  <a href="tel:1234567890">123-456-7890</a>
+                  <a href="tel:0954 229 4356">0954 229 4356</a>
                 </div>
               </div>
             </div>
@@ -128,7 +128,10 @@ const Footer = () => {
           <Row>
             <Col md={6}>
               <p className="vl-copyright-text">
-                © 2025 Glotti Business Solution All Rights Reserved.
+                © 2025 <span style={{ color: "#F47C00" }}>Glotti</span>{" "}
+                <span style={{ color: "#0066CC" }}>Business Solutions</span>.
+                All Rights Reserved.
+                {/* © 2025 Glotti Business Solutions. All Rights Reserved. */}
               </p>
             </Col>
             <Col md={6}>
