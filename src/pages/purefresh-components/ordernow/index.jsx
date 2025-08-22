@@ -32,10 +32,10 @@ const Contact = () => {
           <Col lg={6} className="mb-30">
             <div className="vl-section-content ml-50">
               <div className="section-title">
-                <h4 className="subtitle">Order Now</h4>
-                <h2 className="title">
+                <h4 className="title">Order Now</h4>
+                {/* <h2 className="subtitle">
                   Together, Let’s Make Every Day Fresher
-                </h2>
+                </h2> */}
                 <p className="para pb-32">
                   We’re here to take your orders, answer your questions, and
                   deliver the water, ice, and laundry services your home or
