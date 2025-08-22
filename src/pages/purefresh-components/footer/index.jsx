@@ -13,7 +13,7 @@ const Footer = () => {
           <Col lg={3} md={6}>
             <div className="vl-footer-widget-1 mb-30">
               <div className="vl-footer-logo">
-                <Link to="/multi-page/water-aid">
+                <Link to="/">
                   <img src={footerLogo} alt="footerLogo" />
                 </Link>
               </div>
@@ -135,7 +135,7 @@ const Footer = () => {
               </p>
             </Col>
             <Col md={6}>
-              <div className="vl-copyright-menu">
+              {/* <div className="vl-copyright-menu">
                 <ul>
                   <li>
                     <a href="#">Privacy Policy </a>
@@ -144,7 +144,7 @@ const Footer = () => {
                     <a href="#">Terms &amp; Conditions</a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </Col>
           </Row>
         </div>
