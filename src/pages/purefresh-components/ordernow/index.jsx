@@ -38,7 +38,6 @@ const Contact = () => {
     QTY: "",
     ADDRESS: "",
   });
-
   const templateParams = {
     name: formData.FIRSTNAME + ", " + formData.LASTNAME,
     // client_email: "jayromellawas30@gmail.com",
@@ -64,7 +63,6 @@ const Contact = () => {
       [name]: value,
     }));
   };
-
   const handleSubmit = async () => {
     try {
       setLoading(true);
