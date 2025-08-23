@@ -41,6 +41,7 @@ const Contact = () => {
 
   const templateParams = {
     name: formData.FIRSTNAME + ", " + formData.LASTNAME,
+    // client_email: "jayromellawas30@gmail.com",
     client_email: "romeocjacob@yahoo.com",
     glotti_email: "jay.romel.lawas@glottii.com",
     client_name: "PureFresh",
