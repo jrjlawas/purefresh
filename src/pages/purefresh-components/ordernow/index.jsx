@@ -34,14 +34,15 @@ const Contact = () => {
     FIRSTNAME: "",
     LASTNAME: "",
     CONTACTNUMBER: "",
+    DELIVERY: "",
     PRODUCT: "",
     QTY: "",
     ADDRESS: "",
   });
   const templateParams = {
     name: formData.FIRSTNAME + ", " + formData.LASTNAME,
-    // client_email: "jayromellawas30@gmail.com",
-    client_email: "romeocjacob@yahoo.com",
+    client_email: "jayromellawas30@gmail.com",
+    // client_email: "romeocjacob@yahoo.com",
     glotti_email: "jay.romel.lawas@glottii.com",
     client_name: "PureFresh",
     sender_name: "Order Request",
@@ -51,6 +52,7 @@ const Contact = () => {
     First Name: ${formData.FIRSTNAME}
     Last Name: ${formData.LASTNAME}
     Contact Number: ${formData.CONTACTNUMBER}
+    Delivery / Reservation Date: ${formData.DELIVERY}
     Product: ${formData.PRODUCT}
     Quantity: ${formData.QTY}
     Address: ${formData.ADDRESS}
@@ -72,7 +74,8 @@ const Contact = () => {
         !formData.CONTACTNUMBER ||
         !formData.PRODUCT ||
         !formData.QTY ||
-        !formData.ADDRESS
+        !formData.ADDRESS ||
+        !formData.DELIVERY
       ) {
         showAlert("Please fill out all fields before sending.", "error");
         setLoading(false);
@@ -85,6 +88,7 @@ const Contact = () => {
             FIRSTNAME: "",
             LASTNAME: "",
             CONTACTNUMBER: "",
+            DELIVERY: "",
             PRODUCT: "",
             QTY: "",
             ADDRESS: "",
@@ -163,6 +167,15 @@ const Contact = () => {
                         onChange={handleChange}
                         value={formData.CONTACTNUMBER}
                         placeholder="Contact Number*"
+                      />
+                    </Col>
+                    <Col lg={12}>
+                      <input
+                        type="text"
+                        name="DELIVERY"
+                        onChange={handleChange}
+                        value={formData.DELIVERY}
+                        placeholder="Delivery / Reservation Date*"
                       />
                     </Col>
 
